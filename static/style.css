@@ -1,0 +1,48 @@
+a{
+    font-size: 200%;
+    margin: 0.4%;
+    border-right: solid black;
+    padding-right: 0.8%;
+}
+
+/*.header{
+    background-color: #b3b1b1;
+}*/
+
+p.main{
+    text-align: justify;
+}
+
+h1{
+    text-align: left;
+    margin-left: 10%
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+.main{
+    text-align: center;
+    margin: -0.2% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
+}
+
+ol{
+    margin-left: 10%;
+}
+
+li{
+    text-align: left;
+}
+
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+form{
+    text-align: left;
+    margin-left: 10%;
+}
