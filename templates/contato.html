@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Unes Universidade - Contato</title>
+</head>
+
+<body style="background-image: url(static/Imagens/fundo2.png);">
+
+    <div class="header">
+
+        <img src="../static/Imagens/logo.png" alt="logo" style="margin: 1% 0% 0% 5%;">
+        <a href="../index" style="margin-left:50%">Home</a>
+        <a href="../quem_somos">Quem Somos</a>
+        <a href="../contato" style="border-right: none">Contato</a>
+
+    </div>
+
+    <div>.</div>
+    
+    <div class="main">
+        <div>
+            <h1>Entre em Contato</h1>
+
+            <p class="main">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aperiam doloribus soluta nostrum odit
+                quidem quos exercitationem amet libero aute
+            </p>
+
+            <hr>
+        </div>
+
+        <br>
+
+        <div>
+            <form action="{{ url_for('auth.gfg')}}" method="post" id="gfg">
+                <label for="email">Seu E-mail:</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto" value=""><br>
+                <label for="descricao">Descrição:</label> <br>
+                <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <br>
+
+        <div class="footer">
+            <p>Todos os direitors reservados</p>
+        </div>
+    </div>
+</body>
+
+</html>
