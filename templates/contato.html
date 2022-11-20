@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -16,11 +16,18 @@
         <img src="../static/Imagens/logo.png" alt="logo" style="margin: 1% 0% 0% 5%;">
         <a href="../index" style="margin-left:50%">Home</a>
         <a href="../quem_somos">Quem Somos</a>
+        <a href="../consultar">Consulta</a>
         <a href="../contato" style="border-right: none">Contato</a>
 
     </div>
 
-    <div>.</div>
+    <div>.</div>-->
+
+    {% extends "base.html" %}
+
+    {% block title %} Unes Universidade - Contato {% endblock %}
+
+    {% block content %}
     
     <div class="main">
         <div>
@@ -54,6 +61,10 @@
             <p>Todos os direitors reservados</p>
         </div>
     </div>
-</body>
+    {% endblock %}
 
-</html>
+    <style>
+            body{
+                background-image: url(static/Imagens/fundo2.png);
+            }
+    </style>

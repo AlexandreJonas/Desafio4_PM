@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Unes Universidade - Contato</title>
+</head>
+
+<body style="background-image: url(static/Imagens/fundo2.png);">
+
+    <div class="header">
+
+            <img src="../static/Imagens/logo.png" alt="logo" style="margin: 0.9% 0% 0% 5%;">
+            <a href="../index" style="margin-left:43%">Home</a>
+            <a href="../consultar">Consulta</a>
+            <a href="../quem_somos">Quem Somos</a>
+            <a href="../contato" style="border-right: none">Contato</a>
+
+    </div>
+
+    <div>.</div>
+
+    {% block content %}         {% endblock %}
+       
+</body>
+
+</html>

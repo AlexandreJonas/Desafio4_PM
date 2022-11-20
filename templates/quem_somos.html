@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -19,7 +19,13 @@
 
     </div>
 
-    <div>.</div>
+    <div>.</div>-->
+
+    {% extends "base.html" %}
+
+    {% block title %} Unes Universidade - Quem Somos {% endblock %}
+
+    {% block content %}
 
     <div class="main">
         <div>
@@ -55,5 +61,10 @@
             <p>Todos os direitors reservados</p>
         </div>
     </div>
-</body>
-</html>
+    {% endblock %}
+
+    <style>
+            body{
+                background-image: url(static/Imagens/fundo2.png);
+            }
+        </style>
