@@ -6,7 +6,25 @@
     
     <div class="main">
 
-        <p>{{contatos}}</p>
+        <h1>Consulta de emails</h1>
+
+        <p class="main">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aperiam doloribus soluta nostrum odit
+            quidem quos exercitationem amet libero aute
+        </p>
+
+        <hr>
+
+       {% for i in contatos %}
+
+       <div class="emails">
+            <p> <span>Email: </span> {{i[0]}}</p>
+            <p> <span>Assunto: </span> {{i[1]}}</p>
+            <p> <span>Descrição: </span> {{i[2]}}</p>
+       </div>
+
+       <br>
+       {% endfor %}
 
     </div>
        
